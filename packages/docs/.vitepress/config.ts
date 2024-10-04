@@ -1,5 +1,8 @@
 import { defineConfig } from "vitepress";
-import {componentPreview, containerPreview} from "@vitepress-demo-preview/plugin";
+import {
+  componentPreview,
+  containerPreview,
+} from "@vitepress-demo-preview/plugin";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -13,10 +16,10 @@ export default defineConfig({
       { text: "开始使用", link: "/get-started" },
       { text: "组件", link: "/components/button" },
     ],
-    search: {provider: "local"},
+    search: { provider: "local" },
     sidebar: [
       {
-        text: "Examples",
+        text: "组件",
         items: [
           { text: "开始使用", link: "/get-started" },
           { text: "组件", link: "/components/button" },
