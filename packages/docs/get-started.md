@@ -10,7 +10,7 @@ next:
 
 
 ```bash
-npm i @eric-ui --save
+npm i easy-ui --save
 ```
 
 ## 开始使用
